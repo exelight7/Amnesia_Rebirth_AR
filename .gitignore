@@ -1,0 +1,6 @@
+/build/
+/dist/
+/fonts/generated/
+__pycache__/
+*.pyc
+.amnesia-arabic/

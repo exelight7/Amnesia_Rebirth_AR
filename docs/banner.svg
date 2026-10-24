@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="480" viewBox="0 0 1440 480" role="img" aria-labelledby="title desc">
+  <title id="title">تعريب Amnesia: Rebirth</title>
+  <desc id="desc">بوابة هندسية مجردة بين كثبان داكنة، مع عنوان المشروع وإصداره. رسم أصلي دون صور من اللعبة.</desc>
+  <defs>
+    <linearGradient id="sky" x2="0" y2="1"><stop stop-color="#11171c"/><stop offset="1" stop-color="#38332e"/></linearGradient>
+    <linearGradient id="sand" x2="0" y2="1"><stop stop-color="#70604b"/><stop offset="1" stop-color="#292723"/></linearGradient>
+    <linearGradient id="door" x2="0" y2="1"><stop stop-color="#cdb891" stop-opacity=".7"/><stop offset="1" stop-color="#8b7050" stop-opacity=".05"/></linearGradient>
+  </defs>
+  <rect width="1440" height="480" rx="16" fill="url(#sky)"/>
+  <g fill="#d7c5a5" opacity=".55"><circle cx="118" cy="85" r="1.5"/><circle cx="542" cy="63" r="1.5"/><circle cx="642" cy="105" r="1"/><circle cx="1200" cy="80" r="1.5"/><circle cx="1305" cy="140" r="1"/><circle cx="1110" cy="47" r="1"/></g>
+  <circle cx="339" cy="185" r="86" fill="#8e5945" opacity=".65"/>
+  <circle cx="339" cy="185" r="102" fill="none" stroke="#b48b61" stroke-opacity=".18"/>
+  <path d="M0 346Q200 242 430 332T860 327T1440 312V480H0Z" fill="#454239"/>
+  <path d="M0 404Q249 318 493 387T958 370T1440 380V480H0Z" fill="url(#sand)"/>
+  <g stroke="#c4ac83" fill="none">
+    <path d="M250 358V191Q250 109 331 109Q412 109 412 191V358" stroke-width="3" opacity=".8"/>
+    <path d="M268 355V193Q268 127 331 127Q394 127 394 193V355" stroke-width="1" opacity=".6"/>
+    <path d="M250 192H225M412 192H437M331 109V83" opacity=".6"/>
+  </g>
+  <path d="M277 356V195Q277 136 331 136Q385 136 385 195V356Z" fill="url(#door)"/>
+  <path d="M277 356L198 480H464L385 356" fill="#b09671" opacity=".09"/>
+  <path d="M653 112H1324" stroke="#c1a77f" stroke-opacity=".3"/>
+  <text x="1325" y="166" text-anchor="end" fill="#c5ae87" font-family="Segoe UI,Arial,sans-serif" font-size="17" letter-spacing="5">AMNESIA: REBIRTH</text>
+  <text x="1325" y="259" text-anchor="start" direction="rtl" unicode-bidi="embed" fill="#f3e9d7" font-family="Tahoma,Arial,sans-serif" font-size="65" font-weight="700">الرحلة بالعربية</text>
+  <text x="1325" y="311" text-anchor="start" direction="rtl" unicode-bidi="embed" fill="#c5b8a4" font-family="Tahoma,Arial,sans-serif" font-size="23">تعريب مجتمعي مفتوح المصدر</text>
+  <g font-family="Segoe UI,Arial,sans-serif" font-size="14" fill="#d9c7a7">
+    <rect x="1118" y="350" width="206" height="34" rx="17" fill="#b9a07a" fill-opacity=".10" stroke="#b9a07a" stroke-opacity=".35"/>
+    <text x="1221" y="372" text-anchor="middle" letter-spacing="1.5">ARABIC · RTL · v1.0.0</text>
+  </g>
+  <path d="M0 452Q250 390 470 440T1000 436T1440 444V480H0Z" fill="#171d20" opacity=".7"/>
+</svg>

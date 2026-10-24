@@ -1,0 +1,4 @@
+Pillow==12.3.0
+fonttools==4.65.0
+arabic-reshaper==3.0.1
+python-bidi==0.6.11

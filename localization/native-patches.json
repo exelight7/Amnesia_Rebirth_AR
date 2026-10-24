@@ -1,0 +1,88 @@
+[
+  {
+    "name": "AmnesiaRebirth.exe",
+    "before_sha256": "36251d7844e270af3b4d85f77f4e47f570fbe8bc5708d7a52d4fee85f77dc2a1",
+    "after_sha256": "586c9a4fe4920fb8bd624f7495f64958233dd61b88082b2f8a8d699fd87b0e48",
+    "patches": [
+      {
+        "rva": "0x41b0c",
+        "offset": 265996,
+        "before": "cccccccccccccccccccccccccccccccccccc",
+        "after": "4c8b421031c04d29c84c0f42c0e9522a2700"
+      },
+      {
+        "rva": "0x2963b8",
+        "offset": 2709432,
+        "before": "e8b3e10100",
+        "after": "e84fb7daff"
+      },
+      {
+        "rva": "0x2965ec",
+        "offset": 2709996,
+        "before": "e87fdf0100",
+        "after": "e81bb5daff"
+      },
+      {
+        "rva": "0x295dd0",
+        "offset": 2707920,
+        "before": "f30f5ce2",
+        "after": "f30f58e2"
+      },
+      {
+        "rva": "0x295e49",
+        "offset": 2708041,
+        "before": "c744243000000000",
+        "after": "c744243001000000"
+      },
+      {
+        "rva": "0x295eb0",
+        "offset": 2708144,
+        "before": "c744243000000000",
+        "after": "c744243001000000"
+      }
+    ]
+  },
+  {
+    "name": "AmnesiaRebirth_NoSteam.exe",
+    "before_sha256": "5fb6c3d4fce1b834583fef041e9b0fb6312056c9e2b54f02ea654886b13c3a9d",
+    "after_sha256": "16d6131113a6c3a4977dd144dff2bf3184d175478559b985628002d4a1b47ec3",
+    "patches": [
+      {
+        "rva": "0x41b0c",
+        "offset": 265996,
+        "before": "cccccccccccccccccccccccccccccccccccc",
+        "after": "4c8b421031c04d29c84c0f42c0e992532600"
+      },
+      {
+        "rva": "0x287555",
+        "offset": 2648405,
+        "before": "e856f90100",
+        "after": "e8b2a5dbff"
+      },
+      {
+        "rva": "0x287763",
+        "offset": 2648931,
+        "before": "e848f70100",
+        "after": "e8a4a3dbff"
+      },
+      {
+        "rva": "0x286e00",
+        "offset": 2646528,
+        "before": "f30f5ce2",
+        "after": "f30f58e2"
+      },
+      {
+        "rva": "0x286e79",
+        "offset": 2646649,
+        "before": "c744243000000000",
+        "after": "c744243001000000"
+      },
+      {
+        "rva": "0x286ee0",
+        "offset": 2646752,
+        "before": "c744243000000000",
+        "after": "c744243001000000"
+      }
+    ]
+  }
+]
